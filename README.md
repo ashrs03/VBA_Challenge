@@ -21,8 +21,8 @@ Both original and refactored code look for first row of ticker index and last ro
 
 ### Findings
 The data that is provided for the stocks is for two consecutive years: Year 2017 and Year 2018. 
-! [This is data for 2017 stock analysis](./Resources/2017 stock analysis.png)
-! [This is data for 2018 stock analysis](./Resources/2018 Stock Analysis.png)
+![This is data for 2017 stock analysis](./Resources/2017_stock_analysis.png)
+![This is data for 2018 stock analysis](./Resources/2018_Stock_Analysis.png)
 The executive time in seconds on average is much lower for the refactored code and the graph below depicts few values that are compared for 5 runs of stock data analysis with original code and refactored code. 
 ! [Run time of Original Code versus refactored Code](./Resources/Run time Original Code Versus refactored code.png)
 
