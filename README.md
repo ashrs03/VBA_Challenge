@@ -26,7 +26,7 @@ The data that is provided for the stocks is for two consecutive years: Year 2017
 ![This is data for 2018 stock analysis](./Resources/2018_Stock_Analysis)
 
 The executive time in seconds on average is much lower for the refactored code and the graph below depicts few values that are compared for 5 runs of stock data analysis with original code and refactored code. 
-! [Run time of Original Code versus refactored Code](./Resources/Run time Original Code Versus refactored code.png)
+! [Run time of Original Code versus refactored Code](./Resources/Run_time_Original_Code_Versus_refactored_code.png)
 
 
 On average the execution time for the code was 0.82 secs for 2017 and 0.83 secs for 2018 stock analysis and this was reduced to 0.10 secs and 0.09 secs respectively with the refactored code. 
@@ -36,18 +36,22 @@ On average the execution time for the code was 0.82 secs for 2017 and 0.83 secs 
 Refactoring of the code is powerful and disciplined technique for restructuring an existing body of code, altering its internal structure without changing its external behavior. 
 
 ### General Advantage on refactored code
-1. Chances of Enhancement are high- For new functionalities this can be beneficial to have the code well written
-2. Code Smell is Detected- Sometimes bad patterns like duplicate code, long methods are detected in the code
-3. Bug Fixing- Having it looked through and refactored will potentially not introduce bugs if code is well written. 
-4. Peer Review- Peer review is an important part of code refactoring. Having relooked at the code this code has been peer reviewed.
+
+- Chances of Enhancement are high- For new functionalities this can be beneficial to have the code well written.
+
+- Code Smell is Detected- Sometimes bad patterns like duplicate code, long methods are detected in the code.
+
+- Bug Fixing- Having it looked through and refactored will potentially not introduce bugs if code is well written. 
+
+- Peer Review- Peer review is an important part of code refactoring. Having relooked at the code this code has been peer reviewed.
 
 ### Potential pitfalls
 
-1. Stable code need not be refactored – if intention is to not use the code for additional functional or additional data sets, there is no need to refactor code. Do not fix what is not broken. 
+- Stable code need not be refactored – if intention is to not use the code for additional functional or additional data sets, there is no need to refactor code. Do not fix what is not broken.
 
-2. Delivery deadline is impacted by refactoring- refactoring and testing code takes time and in general this should be thought through before continuing to refactor the code as a practice. 
+- Delivery deadline is impacted by refactoring- refactoring and testing code takes time and in general this should be thought through before continuing to refactor the code as a practice. 
 
-3. Cost benefit analysis- If cost of refactoring is higher, sometimes writing code from scratch works better. 
+- Cost benefit analysis- If cost of refactoring is higher, sometimes writing code from scratch works better. 
 
 ### Application 
 
